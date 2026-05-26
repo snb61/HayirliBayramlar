@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>Bayramınız mübarek olsun🤍</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f7f4ef;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    color:#2e2e2e;
+}
+
+.card{
+    width:100%;
+    max-width:420px;
+    background:white;
+    border-radius:28px;
+    padding:38px 24px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,0.05);
+}
+
+h1{
+    font-size:42px;
+    font-weight:500;
+    margin-bottom:14px;
+}
+
+.text{
+    color:#7a7a7a;
+    margin-bottom:34px;
+    line-height:1.6;
+}
+
+.buttons{
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+}
+
+.btn{
+    display:block;
+    text-decoration:none;
+    background:#f4efe8;
+    border:1px solid #ebe3da;
+    color:#2f2f2f;
+    padding:22px;
+    border-radius:18px;
+    font-size:30px;
+    font-weight:bold;
+    transition:0.2s;
+}
+
+.btn:hover{
+    background:#ece5dc;
+    transform:translateY(-2px);
+}
+
+.footer{
+    margin-top:30px;
+    color:#8a8a8a;
+    font-size:14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <h1>Bayramınız mübarek olsun🤍</h1>
+
+    <p class="text">
+      İkram edene İhsan edilir :)
+    </p>
+
+    <div class="buttons">
+
+        <!-- 10€ -->
+        <a class="btn"
+           href="https://www.paypal.com/paypalme/snb61/10"
+           target="_blank">
+           10€
+        </a>
+
+        <!-- 20€ -->
+        <a class="btn"
+           href="https://www.paypal.com/paypalme/snb61/20"
+           target="_blank">
+           20€
+        </a>
+
+        <!-- 50€ -->
+        <a class="btn"
+           href="https://www.paypal.com/paypalme/snb61/50"
+           target="_blank">
+           50€
+        </a>
+
+    </div>
+
+    <div class="footer">
+        ✨Allah razı olsun✨
+    </div>
+
+</div>
+
+</body>
+</html>
